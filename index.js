@@ -13,12 +13,13 @@ function writeCards(name,event){
 }
 writeCards(names,eventToHappen);
 
-function countDown( number){
-    let i = number;
-    while(number >=0){
-        console.log(number);
-        number -= 1;
+function countDown( num){
+    let i = num;
+    while(num >=0){
+        console.log(num);
+        num -= 1;
     }
-    return number;
+    return num;
 }
 countDown(10);
+
